@@ -64,7 +64,7 @@ const StarsParticles = () => {
               number: {
                 density: {
                   enable: true,
-                  area: 800, // Área para las estrellas
+                  // area: 800, // Área para las estrellas
                 },
                 value: 300, // Pocas estrellas
               },
