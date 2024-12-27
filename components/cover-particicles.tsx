@@ -66,7 +66,7 @@ const CoverParticles = () => {
               number: {
                 density: {
                   enable: true,
-                  area: 900, // Mayor área para las partículas
+                  // area: 900, // Mayor área para las partículas
                 },
                 value: 200, // Aumenté la cantidad de partículas
               },
