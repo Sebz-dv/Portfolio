@@ -30,7 +30,7 @@ const SliderServices = () => {
         disableOnInteraction: false,
       }}
       modules={[Pagination, Autoplay]}
-      className="h-[300px] md:h-[360px] w-full max-w-[1200px] mx-auto transition-all"
+      className="h-[320px] md:h-[360px] w-full max-w-[1200px] mx-auto transition-all"
     >
       {serviceData.map((item, index) => (
         <SwiperSlide key={index}>
@@ -39,9 +39,11 @@ const SliderServices = () => {
             aria-labelledby={`service-title-${index}`}
             role="region"
           >
+            {/* Ícono */}
             <div className="mb-4 text-5xl text-terciary transition-all duration-500 transform group-hover:rotate-6 group-hover:scale-110">
               {item.icon}
             </div>
+            {/* Contenido */}
             <div className="text-center">
               <h3
                 id={`service-title-${index}`}
