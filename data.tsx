@@ -14,33 +14,55 @@ import {
   Book,
   Rocket,
   Speech,
+  Instagram,
+  Locate,
+  MessageCircleCode,
+  Github,
+  MessageCircle,
+  MessageCircleHeart,
+  MessageSquare,
+  MessageSquareText,
+  MessageSquareDiff,
+  MessageSquareLock,
+  MessageSquareDot,
 } from "lucide-react";
 
 export const socialNetworks = [
   {
     id: 1,
-    logo: <Youtube size={30} strokeWidth={1} />,
-    src: "#!",
+    logo: <Linkedin size={30} strokeWidth={1} />,
+    src: "https://www.linkedin.com/in/sjrm/",
+    name: "LinkedIn", // Nombre de la red social
   },
   {
     id: 2,
-    logo: <Linkedin size={30} strokeWidth={1} />,
-    src: "#!",
+    logo: <Instagram size={30} strokeWidth={1} />,
+    src: "https://www.instagram.com/sebs_0l0/",
+    name: "Instagram", // Nombre de la red social
   },
   {
     id: 3,
-    logo: <Twitter size={30} strokeWidth={1} />,
-    src: "#!",
+    logo: <Locate size={30} strokeWidth={1} />,
+    src: "https://www.google.com/maps/place/Suba,+Bogot%C3%A1/@4.7614365,-74.0830788,12z/data=!3m1!4b1!4m6!3m5!1s0x8e3f84509d700417:0xc7cd69e940f94f14!8m2!3d4.7207926!4d-74.074768!16s%2Fm%2F02rhtnv?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D",
+    name: "Google Maps", // Nombre de la red social
   },
   {
     id: 4,
-    logo: <Rss size={30} strokeWidth={1} />,
-    src: "#!",
+    logo: <MessageCircleCode size={30} strokeWidth={1} />,
+    src: "https://wa.me/573204627207/?text=Hola,%20vi%20tu%20p%C3%A1gina%20web%20y%20me%20pareci%C3%B3%20muy%20interesante.%20Me%20gustar%C3%ADa%20hablar%20contigo%20sobre%20algunos%20detalles%20y%20ver%20c%C3%B3mo%20podemos%20colaborar.",
+    name: "WhatsApp", // Nombre de la red social
   },
   {
     id: 5,
-    logo: <Twitch size={30} strokeWidth={1} />,
-    src: "#!",
+    logo: <Github size={30} strokeWidth={1} />,
+    src: "https://github.com/Sebz-dv",
+    name: "GitHub", // Nombre de la red social
+  },
+  {
+    id: 6,
+    logo: <MessageSquareDot size={30} strokeWidth={1} />,
+    src: "mailto:sebzdev@gmail.com?subject=Consulta%20sobre%20tu%20p%C3%A1gina%20web&body=Hola,%20vi%20tu%20p%C3%A1gina%20y%20me%20gustar%C3%ADa%20discutir%20algunos%20detalles.%20Espero%20tu%20respuesta.",
+    name: "Email", // Nombre de la red social
   },
 ];
 
@@ -80,16 +102,16 @@ export const itemsNavbar = [
 export const dataAboutPage = [
   {
     id: 1,
-    title: "Frontend Developer",
-    subtitle: "TechSolutions",
+    title: "Software Developer",
+    subtitle: "Disytek",
     description:
-      "Colabora con un equipo dinámico para desarrollar interfaces de usuario atractivas y funcionales que impulsen el éxito de nuestros clientes en el mundo digital.",
-    date: "Nov 2023 ",
+      "En Disytek S.A.S, como Desarrollador de Software, implementé y optimicé módulos avanzados en PHP, Laravel, MySQL y JavaScript para mejorar la precisión y eficiencia de los procesos metrológicos. Desarrollé informes detallados y tablas de Excel automatizadas, facilitando la toma de decisiones. Rediseñé la interfaz de usuario, mejorando la satisfacción del cliente. Además, creé un sistema de inventario que optimizó la gestión de recursos y la eficiencia operativa.",
+    date: "Enero 2022",
   },
   {
     id: 2,
-    title: "Creador de Experiencias Digitales",
-    subtitle: "PixelCrafters",
+    title: "Programador Junior",
+    subtitle: "Teleperformance",
     description:
       "Trabaja en proyectos emocionantes que desafían los límites de la creatividad y la tecnología. Únete a nosotros mientras creamos experiencias digitales cautivadoras que inspiran y cautivan a nuestros usuarios.",
     date: "May 2021",
@@ -183,56 +205,7 @@ export const dataPortfolio = [
     image: "/image-1.jpg",
     urlGithub: "#!",
     urlDemo: "#!",
-  },
-  {
-    id: 2,
-    title: "Desarrollo Web Ágil",
-    image: "/image-2.jpg",
-    urlGithub: "#!",
-    urlDemo: "#!",
-  },
-  {
-    id: 3,
-    title: "Estrategias Web",
-    image: "/image-3.jpg",
-    urlGithub: "#!",
-    urlDemo: "#!",
-  },
-  {
-    id: 4,
-    title: "Ideas Creativas",
-    image: "/image-4.jpg",
-    urlGithub: "#!",
-    urlDemo: "#!",
-  },
-  {
-    id: 5,
-    title: "Webs Impactantes",
-    image: "/image-5.jpg",
-    urlGithub: "#!",
-    urlDemo: "#!",
-  },
-  {
-    id: 6,
-    title: "Web Dinámica",
-    image: "/image-6.jpg",
-    urlGithub: "#!",
-    urlDemo: "#!",
-  },
-  {
-    id: 7,
-    title: "Dark Web ",
-    image: "/image-7.jpg",
-    urlGithub: "#!",
-    urlDemo: "#!",
-  },
-  {
-    id: 8,
-    title: "E-commerce web",
-    image: "/image-8.jpg",
-    urlGithub: "#!",
-    urlDemo: "#!",
-  },
+  }, 
 ];
 
 export const dataTestimonials = [

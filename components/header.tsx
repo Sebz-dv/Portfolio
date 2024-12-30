@@ -53,15 +53,20 @@ const Header = () => {
               isMenuOpen ? "flex" : "hidden"
             } md:flex flex-col md:flex-row items-center gap-5 absolute md:static top-16 right-4 left-4 md:top-auto md:left-auto md:right-auto bg-white/30 backdrop-blur-md border border-white/20 md:bg-transparent p-4 md:p-0 shadow-lg md:shadow-none rounded-lg md:rounded-none z-50`}
           >
-            {socialNetworks.map(({ logo, src, id }) => (
-              <Link
+            {socialNetworks.map(({ logo, src, id, name }) => (
+              <div
                 key={id}
-                href={src}
-                target="_blank"
-                className="transition-transform duration-300 transform hover:scale-125 hover:text-terciary hover:rotate-12 p-2 rounded-full border-2 border-transparent hover:border-terciary shadow-md"
+                className="group flex flex-col items-center space-y-2 transition-transform duration-300 transform hover:scale-125 hover:text-terciary hover:rotate-12 p-2 rounded-full border-2 border-transparent hover:border-terciary shadow-md"
               >
-                {logo}
-              </Link>
+                {/* Ícono de la red social */}
+                <a href={src} target="_blank" rel="noopener noreferrer">
+                  {logo}
+                </a>
+                {/* Nombre de la red social, visible solo al hacer hover */}
+                <span className="text-xs text-center hidden group-hover:block">
+                  {name}
+                </span>
+              </div>
             ))}
           </nav>
         </div>

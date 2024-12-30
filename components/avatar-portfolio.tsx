@@ -1,22 +1,23 @@
 "use client";
+
 import Image from "next/image";
 import { MotionTransition } from "./transition-component";
 
-const AvatarServices = () => {
+const AvatarPortfolio = () => {
   return (
     <MotionTransition
-      position="right"
+      position="bottom"
       className="bottom-0 left-0 hidden md:inline-block md:absolute"
     >
       <Image
-        src="/services.png"
-        width="400"
-        height="400"
-        className="w-[350px] h-full animate-moveSideToSide"
+        src="/avatar-works.png"
+        width="300"
+        height="300"
+        className="w-full h-full animate-spaceShipMovement"
         alt="Particles"
       />
     </MotionTransition>
   );
 };
 
-export default AvatarServices;
+export default AvatarPortfolio;

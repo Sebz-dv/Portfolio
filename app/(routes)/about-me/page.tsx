@@ -12,13 +12,12 @@ const AboutMePage = () => {
       <CoverParticicles2 />
       <TransitionPage />
       <ContainerPage>
-        <Avatar />
         <h1 className="text-2xl leading-tight text-center md:text-left md:text-5xl md:mt-10">
-          Toda mi{" "}
-          <span className="font-bold text-terciary">
-            trayectoria profesional
-          </span>
+          Mi{" "}
+          <span className="font-bold text-terciary">recorrido profesional</span>{" "}
+          a lo largo del tiempo
         </h1>
+        <Avatar />
         <CounterServices />
         <TimeLine />
       </ContainerPage>

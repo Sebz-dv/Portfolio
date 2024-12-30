@@ -2,11 +2,13 @@ import AvatarServices from "@/components/avatar-services";
 import CircleImage from "@/components/circle-image";
 import SliderServices from "@/components/slider-services";
 import TransitionPage from "@/components/transition-page";
+import CoverParticicles2 from "@/components/cover-particicles2";
 
 const ServicesPage = () => {
   return (
     <main className="relative flex flex-col min-h-screen bg-no-repeat bg-gradient-to-r from-[#0d0c1a] via-[#220044] to-[#46018a] overflow-hidden">
       {/* Transiciones y elementos visuales */}
+      <CoverParticicles2 />
       <TransitionPage />
       <CircleImage />
       <AvatarServices />

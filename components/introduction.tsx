@@ -2,12 +2,17 @@
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
+import LanguageSwitcher from "./translate";  // Asegúrate de que la ruta sea correcta
 
 const Introduction = () => {
   return (
     <div className="relative w-full min-h-screen z-20 flex items-center justify-center">
-    {/* <div className="relative w-full min-h-screen z-20 flex items-center justify-center bg-gradient-to-b from-gray-900 via-gray-800 to-black overflow-hidden"> */}
       <div className="grid items-center gap-8 px-4 py-6 md:grid-cols-2 md:px-8 lg:py-12 max-w-7xl">
+        {/* Agregar LanguageSwitcher en la parte superior */}
+        <div className="absolute top-4 right-4 z-30">
+          <LanguageSwitcher />
+        </div>
+
         {/* Animación de la imagen */}
         <motion.div
           initial={{ opacity: 0, x: -100 }}
@@ -48,18 +53,16 @@ const Introduction = () => {
             }}
             className="mb-5 text-3xl sm:text-4xl lg:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-blue-500 to-green-500"
           >
-            Si puedes pensarlo, <br />
+            Si lo imaginas, <br />
             <TypeAnimation
               sequence={[
-                "puedes programarlo",
+                "puedes crearlo",
                 1000,
-                "puedes optimizarlo",
+                "puedes perfeccionarlo",
                 1000,
-                "puedes implementarlo",
+                "puedes materializarlo",
                 1000,
-                "puedes desarrollarlo",
-                1000,
-                "puedes innovarlo",
+                "puedes ejecutarlo",
                 1000,
                 "puedes transformarlo",
                 1000,
@@ -78,9 +81,9 @@ const Introduction = () => {
             transition={{ duration: 1.2, delay: 0.6 }}
             className="mb-6 text-lg sm:text-xl text-gray-300"
           >
-            Como desarrollador fullstack, me dedico a combinar diseño y
-            funcionalidad para crear experiencias digitales impactantes y
-            accesibles.
+            Como desarrollador fullstack, fusiono creatividad y tecnología para
+            crear experiencias digitales que no solo impactan, sino que también
+            son accesibles y funcionales.
           </motion.p>
 
           {/* Botones */}
@@ -94,13 +97,13 @@ const Introduction = () => {
               href="/projects"
               className="px-6 sm:px-8 py-2 sm:py-3 text-base sm:text-lg font-semibold transition-all duration-300 rounded-full bg-gradient-to-r from-blue-500 to-indigo-600 text-white border-2 border-transparent hover:scale-105 hover:from-indigo-600 hover:to-blue-500 hover:border-indigo-500 shadow-lg hover:shadow-xl"
             >
-              Ver proyectos
+              Explora mis proyectos
             </a>
             <a
               href="/contact"
               className="px-6 sm:px-8 py-2 sm:py-3 text-base sm:text-lg font-semibold transition-all duration-300 rounded-full bg-gradient-to-r from-green-500 to-teal-600 text-white border-2 border-transparent hover:scale-105 hover:from-teal-600 hover:to-green-500 hover:border-teal-500 shadow-lg hover:shadow-xl"
             >
-              Contacta conmigo
+              Hablemos
             </a>
           </motion.div>
         </div>
