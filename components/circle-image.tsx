@@ -7,8 +7,8 @@ const CircleImage = () => {
     <div className="bottom-[-100px] right-[-100px] hidden md:inline-block md:absolute">
       <Image
         src="/circles.png"
-        width="600"
-        height="600"
+        width="300"
+        height="300"
         className="w-full h-full animate-rotateAndFloat"
         alt="Planet"
       />
