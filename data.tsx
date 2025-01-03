@@ -34,12 +34,12 @@ export const socialNetworks = [
     src: "https://www.linkedin.com/in/sjrm/",
     name: "LinkedIn", // Nombre de la red social
   },
-  {
-    id: 2,
-    logo: <Instagram size={30} strokeWidth={1} />,
-    src: "https://www.instagram.com/sebs_0l0/",
-    name: "Instagram", // Nombre de la red social
-  },
+  // {
+  //   id: 2,
+  //   logo: <Instagram size={30} strokeWidth={1} />,
+  //   src: "https://www.instagram.com/sebs_0l0/",
+  //   name: "Instagram", // Nombre de la red social
+  // },
   {
     id: 3,
     logo: <Locate size={30} strokeWidth={1} />,

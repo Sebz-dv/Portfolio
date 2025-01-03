@@ -63,9 +63,9 @@ const Header = () => {
                   {logo}
                 </a>
                 {/* Nombre de la red social, visible solo al hacer hover */}
-                <span className="text-xs text-center hidden group-hover:block">
+                {/* <span className="text-xs text-center hidden group-hover:block">
                   {name}
-                </span>
+                </span> */}
               </div>
             ))}
           </nav>
