@@ -18,8 +18,10 @@ const AboutMePage = () => {
           a lo largo del tiempo
         </h1>
         <Avatar />
-        <CounterServices />
-        <TimeLine />
+        <div style={{ margin: "0", padding: "0" }}>
+          <CounterServices />
+          <TimeLine />
+        </div>
       </ContainerPage>
     </div>
   );

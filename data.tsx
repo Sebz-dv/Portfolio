@@ -91,12 +91,12 @@ export const itemsNavbar = [
     icon: <CodeSquare size={25} color="#fff" strokeWidth={1} />,
     link: "/portfolio",
   },
-  {
-    id: 5,
-    title: "Home",
-    icon: <Speech size={25} color="#fff" strokeWidth={1} />,
-    link: "/testimonials",
-  },
+  // {
+  //   id: 5,
+  //   title: "Home",
+  //   icon: <Speech size={25} color="#fff" strokeWidth={1} />,
+  //   link: "/testimonials",
+  // },
 ];
 
 export const dataAboutPage = [
@@ -104,6 +104,40 @@ export const dataAboutPage = [
     id: 1,
     title: "Software Developer",
     subtitle: "Disytek",
+    description:
+      "En Disytek S.A.S, como Desarrollador de Software, implementé y optimicé módulos avanzados en PHP, Laravel, MySQL y JavaScript para mejorar la precisión y eficiencia de los procesos metrológicos. Desarrollé informes detallados y tablas de Excel automatizadas, facilitando la toma de decisiones. Rediseñé la interfaz de usuario, mejorando la satisfacción del cliente. Además, creé un sistema de inventario que optimizó la gestión de recursos y la eficiencia operativa.",
+    date: "Enero 2022",
+  },
+  {
+    id: 2,
+    title: "Programador Junior",
+    subtitle: "Teleperformance",
+    description:
+      "Trabaja en proyectos emocionantes que desafían los límites de la creatividad y la tecnología. Únete a nosotros mientras creamos experiencias digitales cautivadoras que inspiran y cautivan a nuestros usuarios.",
+    date: "May 2021",
+  },
+  {
+    id: 3,
+    title: "Especialista en Desarrollo Frontend",
+    subtitle: "CodeForge Solutions",
+    description:
+      "Como desarrollador frontend, tendrás la oportunidad de colaborar en proyectos diversos y desafiantes que te permitirán expandir tus habilidades y dejar tu huella en el mundo digital.",
+    date: "Ago 2019",
+  },
+  {
+    id: 4,
+    title: "Prácticas Grado",
+    subtitle: "WebWizards Inc.",
+    description:
+      "Únete a nosotros mientras creamos sitios web y aplicaciones interactivas que sorprenden y deleitan a nuestros clientes. Si tienes pasión por el diseño y la programación, y disfrutas colaborar en un entorno creativo, ¡queremos conocerte!        ",
+    date: "Mar 2018",
+  },
+];
+export const dataAboutPageStudi = [
+  {
+    id: 1,
+    title: "Ingenieria de Software",
+    subtitle: "Uninpahu",
     description:
       "En Disytek S.A.S, como Desarrollador de Software, implementé y optimicé módulos avanzados en PHP, Laravel, MySQL y JavaScript para mejorar la precisión y eficiencia de los procesos metrológicos. Desarrollé informes detallados y tablas de Excel automatizadas, facilitando la toma de decisiones. Rediseñé la interfaz de usuario, mejorando la satisfacción del cliente. Además, creé un sistema de inventario que optimizó la gestión de recursos y la eficiencia operativa.",
     date: "Enero 2022",
